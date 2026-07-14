@@ -152,7 +152,7 @@ export default function ContactPage() {
                   <div className="space-y-2">
                     <label className="text-xs font-bold text-slate-700 block">رقم الهاتف / واتساب *</label>
                     <input 
-                      type="tel" 
+                      type="text" 
                       placeholder="05xxxxxxx" 
                       required
                       value={formData.phone}

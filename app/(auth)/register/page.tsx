@@ -123,7 +123,7 @@ export default function RegisterPage() {
               <div className="space-y-1">
                 <label className="text-xs font-bold text-slate-300 block">رقم الهاتف (واتساب) *</label>
                 <input 
-                  type="tel" 
+                  type="text" 
                   placeholder="05xxxxxxx" 
                   required
                   value={formData.phone}

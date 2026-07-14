@@ -99,7 +99,7 @@ export default function LoginPage() {
             <div className="space-y-2">
               <div className="flex justify-between items-center">
                 <label className="text-xs font-bold text-slate-300 block">كلمة المرور</label>
-                <Link href="/contact" className="text-[11px] text-emerald-500 hover:underline">نسيت كلمة المرور؟</Link>
+                <Link href="/forgot-password" className="text-[11px] text-emerald-500 hover:underline">نسيت كلمة المرور؟</Link>
               </div>
               <div className="relative">
                 <input 
